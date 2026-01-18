@@ -1,0 +1,65 @@
+/* Add your CSS styles here */
+/* style.css */
+
+body {
+  background-color: #556e55;
+  color: #f8f8f8fe;
+  font-family: 'copperplate', sans-serif;
+  padding: 10px;
+  border: 5px solid #f8f8f8;
+  border-radius: 20px;
+  box-shadow: 0 0 12px rgba(255, 248, 248, 0.5);
+  
+}
+
+
+img {
+   max-width: 100%;
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100%;
+}
+ card:h1 {
+  font-family: 'Brush Script MT', sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  color: #f6f6dffd;
+  text-decoration: underline;
+  text-align: center;
+ }
+
+ card:h2, card:h3, card:h4 {
+  font-family: 'Papyrus', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+   text-align: center;
+}
+
+card:p {
+  font-size: 16px;
+  line-height: 1.5;
+   text-align: center;
+}
+
+
+a:links {
+ color: #31b8e6;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none; 
+  text-align: center;
+  margin: 0 10px;
+  padding: 0px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+counter-reset: item;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
